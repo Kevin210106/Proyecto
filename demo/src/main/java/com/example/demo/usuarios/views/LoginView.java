@@ -17,6 +17,7 @@ public class LoginView extends LoginOverlay {
         setOpened(true);
 
 
+
         // Crear un botón o enlace hacia la vista de registro
         Button registerButton = new Button("Create an account", e -> {
             System.out.println(">>> ¡Cargando la NUEVA versión de LoginView! <<<");
